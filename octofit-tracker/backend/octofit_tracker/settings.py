@@ -123,3 +123,7 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Additional Djongo settings
+DJONGO_USING_DJANGO_ORM = True
+DJONGO_OPTION_LOGGING = True
